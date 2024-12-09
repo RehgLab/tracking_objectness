@@ -20,8 +20,8 @@ Use `export_mp4_dataset.py` file to generate clips from the PointOdyssey trainin
 
 To evaluate the performance on the datasets reported in the paper, use testing scripts in the pips2 directory with the saved model. 
 
-For **TAP-VID-DAVIS**: `pip2/test_on_tap.py` 
-For **CroHD**: `pips2/test_on_cro.py` 
-For **PointOdyssey**: `pips2/test_on_pod.py`
+For **TAP-VID-DAVIS**: `pip2/test_on_tap.py`  
+For **CroHD**: `pips2/test_on_cro.py`  
+For **PointOdyssey**: `pips2/test_on_pod.py`   
 
 To replicate the performance from the paper use our [trained weights](https://drive.google.com/drive/folders/1NStVTvo3iMRKcA3vaat7yFjwKHgpGrIH?usp=sharing) for the reference model. For TAP-VID-DAVIS, we load full sequence into memory at once, for others we use `S=36`.
